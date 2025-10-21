@@ -17,7 +17,7 @@ func demoFor(){
 
 	//infinite
 	for {
-		fmt.Print("Infinitely inifinte....")
+		fmt.Println("Infinitely inifinte....")
 		break // break manually
 	}
 
