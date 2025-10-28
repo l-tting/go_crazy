@@ -8,5 +8,7 @@ func main(){
 	// demoifElse()
 	// demoSwitch()
 	// demoUserInput()
-	demoArrays()
+	// demoArrays()
+	demoSlices()
+
 }
