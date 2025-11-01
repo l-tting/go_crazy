@@ -12,6 +12,7 @@ func demoArrays() {
 
 	var values = [5]int{10, 20, 30, 40, 50}
 
+
 	//stf for
 	for i := 0; i < len(values); i++ {
 		fmt.Printf("Value here at index %v is %v: \n", i, values[i])

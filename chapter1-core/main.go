@@ -10,5 +10,7 @@ func main(){
 	// demoUserInput()
 	// demoArrays()
 	demoSlices()
+	demoPointers()
+	demoStruct()
 
 }
