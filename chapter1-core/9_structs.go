@@ -20,8 +20,8 @@ func (p Person) cook(meal string) {
 
 }
 
-//pointer receiver
-func (p *Person) ChangeName(){
+// pointer receiver
+func (p *Person) ChangeName() {
 	p.name = "Ethan"
 }
 
@@ -36,12 +36,18 @@ func demoStruct() {
 	// short initialization
 	s := Person{name: "Brian", age: 21, address: "Nairobi", citizen: true}
 
+	//struct initialization methods
+	p1 := Person{"Brian", 21, "Nairobi", true} // Positional
+	p2 := Person{name: "Brian", age: 21}       // Named fields
+	p3 := new(Person)                          // Pointer to empty struct
+	p4 := &Person{name: "Brian"}               // Pointer to struct literal
+
 	// fmt.Println(p)
 	fmt.Println(s)
+	fmt.Println(p1,p2,p3,p4)
 
 	x.ChangeName()
 	x.Greet()
 	x.cook("pasta")
-
 
 }
