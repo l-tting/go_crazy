@@ -10,9 +10,10 @@ func main(){
 	// demoSwitch()
 	// demoUserInput()
 	// demoArrays()
-	demoSlices()
-	demoPointers()
-	demoStruct()
-	demoEmbeddedStructs()
+	// demoSlices()
+	// demoPointers()
+	// demoStruct()
+	// demoEmbeddedStructs()
+	demoMaps()
 
 }
