@@ -21,4 +21,7 @@ func demoVariables() {
 
     f := "apple"
     fmt.Println(f)
+
+    x := "we're back"
+    fmt.Printf("Testing %v",x)
 }
