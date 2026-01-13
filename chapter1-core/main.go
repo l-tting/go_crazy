@@ -1,12 +1,16 @@
 package main
 
-// import "fmt"
+import (
+	// "fmt"
+	"go_dev/tester"
+)
 
 
 
 
 func main(){
 	demoVariables()
+	tester.Tester1()
 	// demoFor()
 	// demoifElse()
 	// demoSwitch()
@@ -29,5 +33,6 @@ func main(){
 
 	// factorial := Recursor(5)
 	// fmt.Println(factorial)
+	
 
 }
