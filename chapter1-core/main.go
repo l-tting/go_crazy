@@ -15,6 +15,8 @@ func main(){
 	sum := tester.Tester2()
 	fmt.Println(sum)
 
+	tester.Tester3()
+
 	// demoFor()
 	// demoifElse()
 	// demoSwitch()
