@@ -1,7 +1,7 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	"go_dev/tester"
 )
 
@@ -11,6 +11,10 @@ import (
 func main(){
 	demoVariables()
 	tester.Tester1()
+
+	sum := tester.Tester2()
+	fmt.Println(sum)
+
 	// demoFor()
 	// demoifElse()
 	// demoSwitch()
